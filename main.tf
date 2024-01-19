@@ -1,7 +1,7 @@
 module "bad_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "my-insecure-s3-bucket"
+  bucket = "my-very-insecure-s3-bucket"
   acl    = "public-read"
 
   control_object_ownership = true
