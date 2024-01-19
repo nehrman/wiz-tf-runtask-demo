@@ -1,3 +1,3 @@
-provider "awz" {
+provider "aws" {
   region = "us-east-1"
 }
